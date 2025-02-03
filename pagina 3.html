@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor</title>
+    
+    <!-- Fuente desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: pink;
+            color: black;
+            font-family: 'Dancing Script', cursive;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            font-weight: 700;
+        }
+        p {
+            font-size: 2em;
+            max-width: 600px;
+            font-weight: 400;
+        }
+    </style>
+</head>
+<body>
+    <audio id="musica" src="sound/ChristianBasso&HaienQiu-Flowers.mp3" autoplay loop></audio></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <p>❤️</p>
+    <h1>Mi amor preciosa 🤭❤️</h1>
+    <div class="container">
+    <div class="tenor-gif-embed" data-postid="2871482820979272488" data-share-method="host" data-aspect-ratio="1.28351" data-width="100%"><a href="https://tenor.com/view/mochi-pet-mochi-cat-cute-squiddy-gif-2871482820979272488">Mochi Pet GIF</a>from <a href="https://tenor.com/search/mochi-gifs">Mochi GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> 
+    <p>A ver, mi vida... Solo quiero decirte algo que sale desde lo más profundo de mi corazón 😊 ¡Te amo con toda mi alma! 🥺 Eres mi todo 💓 mi razón de ser 🥰 mi alegría constante 🥺 desde que llegaste a mi vida, cada día ha sido una bendición 🙈 una oportunidad para amarte más y más 😌 hemos vivido tantas cosas juntos 🥹 momentos de risas 😄 de complicidad 😏 de retos 🤭 pero cada uno de esos momentos ha hecho que nuestro amor sea más fuerte 😊 más inquebrantable 😌</p>
+    <p>No hay palabras suficientes para describir lo mucho que significas para mí 🥺 eres la luz que ilumina mis días 🥰 el susurro que calma mis noches 😆 la melodía que da ritmo a mi corazón ❤️ eres mi refugio seguro 🥰 mi abrazo favorito 🫂 mi paz en medio del caos 🥹 cada día que pasa mi amor por ti se multiplica 🥰 crece sin medida 🤭 </p>
+    <p>Eres una persona increíble 🤩 única 🥰 maravillosa en cada aspecto 😊 admiro todo de tí 🤭 tu ternura 😄 🤭 adoro cada gesto tuyo 🤭 incluso cuando intentas ser fría 🥹 porque hasta en esos momentos sé que me amas 😄😄 y eso me hace sentir el hombre más afortunado del mundo 😊 me encanta cómo me tratas 😊 cómo me miras 👀😄 cómo me haces sentir especial con cada pequeño detalle 🥺 tu amor es el tesoro más grande que poseo y lo valoro con cada latido de mi corazón 😊❤️ </p>
+    <p>Graciasss!!! Mi amor 🥹 por estar a mi lado 💓 por permitirme amarte 😘 por compartir tu vida conmigo 🙈 le doy gracias a Dios cada día por haberte puesto en mi camino 😊 por haberme dado la dicha de conocerte y de construir juntos algo tan hermoso 🥰 tan puro 🤭 tan nuestro ❤️ porque sí, lo nuestro es especial 😌 es único ❤️ es un lazo que nada ni nadie podrá romper 😌😄
+    </p>
+    <p>Prometo seguir amándote con la misma intensidad 😊 con la misma pasión hoy, mañana y siempreeeee 😊❤️ no hay un solo día en el que no le pida al universo que nos mantenga juntos 🥺 porque sin ti mi vida simplemente no sería la mismaaaa!! 🥹🥹🥹🥹</p>
+    <p>Te amo con todo mi ser 🥺 con cada parte de mi alma ❤️ nunca lo dudes 😊 porque eres y siempre serás el amor de mi vida 🙈❤️
+    </p>
+    <p>Att:
+        Tu persona que te adora hasta el infinito 🤭❤️</p>
+    <p>Muahhhh 😘</p>
+
+    <script>
+        let audio = document.getElementById("musica");
+
+        // Mantener el tiempo de reproducción al cambiar de página
+        if (sessionStorage.getItem("musicaTime")) {
+            audio.currentTime = sessionStorage.getItem("musicaTime");
+        }
+
+        audio.play();
+
+        // Guardar el tiempo antes de salir
+        window.addEventListener("beforeunload", function () {
+            sessionStorage.setItem("musicaTime", audio.currentTime);
+        });
+    </script>
+</body>
+</html>
